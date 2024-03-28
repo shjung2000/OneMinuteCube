@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5876763987277108700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2651810697591128188}
+  - component: {fileID: 3675478411879777453}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2651810697591128188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5876763987277108700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.000000029802322, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3675478411879777453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5876763987277108700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7089737bb87a8469916b5a06800a49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: mouseClick
+    clip: {fileID: 8300000, guid: 508797ef8ac9aaf4da7f04719a84b58c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: mouseHover
+    clip: {fileID: 8300000, guid: a66d70cfa3dba4548bade938ff29a819, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: mainMenu
+    clip: {fileID: 8300000, guid: 5a1cf5a9c6e8d284fb2b877e5b2b57e3, type: 3}
+    volume: 0.55
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: clock
+    clip: {fileID: 8300000, guid: 9fdf78f12747fa4409856d62a2047b90, type: 3}
+    volume: 0.85
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: correctSound
+    clip: {fileID: 8300000, guid: 01f48cfa24949e74fa46f364ef57482e, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: wrongSound
+    clip: {fileID: 8300000, guid: 1d0ecdce9c805634fb988c84a87814fb, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: rotation
+    clip: {fileID: 8300000, guid: 82ab5523a1947374ba4e7dab7ba60328, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: gameOver
+    clip: {fileID: 8300000, guid: 52449c4535ae83946b63273ac945d5ad, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
